@@ -16,8 +16,8 @@ This project demonstrates a real-time data pipeline using:
     Apache Kafka: Real-time event streaming
     Apache Spark: Stream processing
     Docker Compose: For Kafka setup (Zookeeper, Kafka Broker, UI)
-    Airflow Integration (optional): Automates API polling to Kafka, Spark job submission,Health checks for output sinks
-    PostgreSQL (optional): For storing transformed data
+    Airflow Integration : Automates API polling to Kafka, Spark job submission,Health checks for output sinks
+    PostgreSQL : For storing transformed data
     Azure ADLS/Blob (future): Cloud storage for curated datasets
 
     🌐 Public APIs Used
