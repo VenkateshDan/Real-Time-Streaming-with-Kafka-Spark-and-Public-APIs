@@ -8,7 +8,7 @@ import base64
 from datetime import datetime
 
 # Configuration
-KAFKA_BROKER = 'kafka:9092'  # Use 'localhost:29092' if running outside Docker
+KAFKA_BROKER = 'kafka:9092' 
 TOPIC_NAME = 'transactions'
 CLIENT_ID = "2a79b712f5ff406c87eb839278c475e6"
 CLIENT_SECRET = "847213cf05de4367bf4e4ede8539d51a"  
@@ -174,13 +174,7 @@ def produce_json_files(filepath, topicName, bootstrap_servers=KAFKA_BROKER):
     print("----------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>----------------------")
     print(f"filepath:  {filepath}")
     print(f"topicName:  {topicName}")       
-    # Read JSON files from a folder and send them to a Kafka topic
-    
-    # Args:
-    #     folder_path (str): Path to folder containing JSON files
-    #     topic (str): Kafka topic name
-    #     bootstrap_servers (str): Kafka broker address (default: localhost:9092)    
-    # Create Kafka producer
+
     producer = KafkaProducer(
         bootstrap_servers=bootstrap_servers,
         value_serializer=lambda v: json.dumps(v).encode('utf-8')
@@ -223,9 +217,7 @@ def safe_api_call(api_func, save_name, *args, **kwargs):
         print(f"Unexpected error in {save_name}: {str(e)}")
     return False
 
-# Usage:
-# safe_api_call(get_weather, "weather", "London")
-# safe_api_call(get_crypto_data, "crypto")
+
 
     
 def api_data_generate_code():
