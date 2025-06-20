@@ -1,7 +1,9 @@
 # Real-Time-Streaming-with-Kafka-Spark-and-Public-APIs
 Retrieve Data from public API's and write into kafka producer. Spark reads from kafka consumer and filter the data
 📌 Project Overview
+
 This project demonstrates a real-time data pipeline using:
+
     Public APIs as data sources (JSON/XML formats), one with (OAuth2)
     Kafka as the messaging layer
     Spark Structured Streaming for processing
