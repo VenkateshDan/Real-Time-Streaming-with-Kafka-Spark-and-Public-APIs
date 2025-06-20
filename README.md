@@ -6,7 +6,7 @@ This project demonstrates a real-time data pipeline using:
     Kafka as the messaging layer
     Spark Structured Streaming for processing
     Airflow Integration
-    Optional: Write to PostgreSQL, Console, or Azure ADLS
+    Write to PostgreSQL, Console, or Azure ADLS
 
 🏗️ Architecture Diagram    
 
