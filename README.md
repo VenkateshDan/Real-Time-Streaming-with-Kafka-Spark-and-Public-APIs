@@ -13,6 +13,9 @@ This project demonstrates a real-time data pipeline using:
 
 🏗️ Architecture Diagram    
 
+![image](https://github.com/user-attachments/assets/3a8c6da5-1418-4c59-9162-cd26c221b360)
+
+
 ⚙️ Tech Stack
 
     Python: API integration + Kafka producers
