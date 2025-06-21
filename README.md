@@ -13,7 +13,8 @@ This project demonstrates a real-time data pipeline using:
 
 🏗️ Architecture Diagram    
 
-![image](https://github.com/user-attachments/assets/3a8c6da5-1418-4c59-9162-cd26c221b360)
+![spark kafka arch diag](https://github.com/user-attachments/assets/29381f44-b0be-4848-ac26-325194485b10)
+
 
 
 ⚙️ Tech Stack
